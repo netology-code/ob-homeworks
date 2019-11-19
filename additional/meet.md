@@ -22,9 +22,9 @@
 ```
    
 ### Материалы
-Подробнее о константах читайте в [справочнике по JavaScript](https://learn.javascript.ru/variables).
 
-Вам также понадобятся [правила именования переменных](https://learn.javascript.ru/variables#variable-naming).
+* Подробнее о константах читайте в [справочнике по JavaScript](https://learn.javascript.ru/variables).
+* Вам также понадобятся [правила именования переменных](https://learn.javascript.ru/variables#variable-naming).
 
 ### Задание
 1. Посмотрите внимательно на код и расставьте подходящие ключевые слова в объявления переменных и констант.
