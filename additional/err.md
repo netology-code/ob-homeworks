@@ -74,3 +74,6 @@ _______
 	  <li>993</li>
 	</ul>
 </details>
+
+### Ссылка на исходный код
+https://repl.it/@netologySD/arrays
