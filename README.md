@@ -9,7 +9,7 @@
 
 1. [Новое знакомство с компьютером](./additional/meet.md)
 2. [Общаемся с компьютером](./additional/talk.md)
-3. [Три кита веба: HTML, CSS, JS](./additional/errors.md)
+3. [Три кита веба: HTML, CSS, JS](./additional/err.md)
 4. [Интернет — большая библиотека](./additional/lib.md)
 
 ## Требования
