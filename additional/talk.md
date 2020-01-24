@@ -64,7 +64,7 @@ let children = `${boyName} младше, чем ${girlName}, на ${girlAge - bo
 
 ## Материалы
 
-* Подробнее о строках читайте в [справочнике по JavaScript](https://learn.javascript.ru/strings).
+* Подробнее о строках читайте в [справочнике по JavaScript](https://learn.javascript.ru/string).
 
 ## Задание
 В редакцию принесли стихотворение:
