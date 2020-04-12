@@ -36,7 +36,7 @@ console.log(arr.join(""));
 
 ## Сколько в массиве элементов
 
-Часто для работы программы нам нужно знать, сколько в массиве элементов. Для этого в языке JavaScript существует встроенно свойство `length`. Оно возвращает число, равное количеству элементов в массиве:
+Часто для работы программы нам нужно знать, сколько в массиве элементов. Для этого в языке JavaScript существует встроенноe свойство `length`. Оно возвращает число, равное количеству элементов в массиве:
 
 ```javascript
 let names = ["Мария", "Иван", "Дарья", "Константин", "Анна"];
@@ -80,3 +80,33 @@ _______
 
 ### Ссылка на исходный код
 https://repl.it/@netologySD/arrays
+
+## Правильное решение (с комментариями)
+
+```javascript
+let numbers1 = [1, "2", 8, "6", 4];
+let numbers2 = [4, 1, "2"]; // удалим первый элемент массива содержащий символ "О"
+let numbers3 = [3, 3, "1"];
+
+let joinArrayFirst = numbers1.join(""); // склеили все элементы массива
+let multiplicateArrayFirst = joinArrayFirst * numbers1.length // произведение содержимого переменной "joinArrayFirst" на длину массива numbers1
+
+console.log(multiplicateArrayFirst)
+
+// далее пишем код по примеру выше
+
+let joinArraySecond = numbers2.join(""); 
+let multiplicateArraySecond = joinArraySecond * numbers2.length 
+
+console.log(multiplicateArraySecond)
+
+let joinArrayThirty = numbers3.join(""); 
+let multiplicateArrayThirty = joinArrayThirty * numbers3.length  
+
+console.log(multiplicateArrayThirty)
+
+```
+
+### Возможные проблемы и замечания
+
+1. Разберём подробнее случай при котором в консоль мы получим `NaN`. Эта ошибка 
