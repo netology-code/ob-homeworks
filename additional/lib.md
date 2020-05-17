@@ -136,7 +136,9 @@ https://repl.it/@netologySD/loopsandif
 const iphonePrice = 99990;
 const noodlesPrice = 18;
 
-let howMuchNoodles = iphonePrice / noodlesPrice; // кол-во дошираков 
+let howMuchNoodles = Math.floor(iphonePrice / noodlesPrice); // кол-во дошираков 
+// Метод Math.floor() - округление вниз. Округляет аргумент до ближайшего меньшего целого.
+
 let change = iphonePrice % noodlesPrice; // записываем остаток от деления при помощи оператора %
 
 console.log("Вместо нового iPhone можно купить: ");
@@ -157,7 +159,7 @@ for(let i = 0; i < howMuchNoodles; i++) { // выполняем выражени
 
 }
 
-console.log(noodlesArray)
+console.log(noodlesArray.join(''));
 ```
 
 ## Возможные проблемы и замечания
