@@ -76,11 +76,11 @@ if (isFemaleGender) {
 
 ## Задача №3
 1. Создайте переменную `testGenderNameAndMiddleAge`
-2. Присвойте переменной результат склейки переменных `middleAge`, `genderName`, используйте тире в качестве разделителя (для склейки используйте оператор `+` )
+2. Присвойте переменной результат склейки переменных `genderName`и `middleAge` используйте тире в качестве разделителя (для склейки используйте оператор `+` )
 3. Выведите в консоль переменную `testGenderNameAndMiddleAge`
 
 ```javascript
-let testGenderNameAndMiddleAge = middleAge + "-" + genderName;
+let testGenderNameAndMiddleAge = genderName + "-" + middleAge;
 console.log(testGenderNameAndMiddleAge);
 ```
 
@@ -98,7 +98,7 @@ function showingMiddleAge(isFemaleGender) {
     genderName = 'мужчин';
   }
 
-  let testGenderNameAndMiddleAge = middleAge + "-" + genderName;
+  let testGenderNameAndMiddleAge = genderName + "-" + middleAge;
   console.log(testGenderNameAndMiddleAge);
   // Это вывод эталона в консоль:
   console.log("Эталон:", genderName, '-', middleAge); 
